@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { checkSubscriptionStatus, updateSubscriptionStatus } from '../../services/authServices';
 import { useStripe, useElements, CardElement } from '@stripe/react-stripe-js';
 
