@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import StatsCard from '../components/StatsCard';
+import StatsCard from '../components/Statscard.jsx';
 import RecentPosts from '../components/RecentPosts';
 import {FaUser, FaClipboard, FaCog, FaChartLine, FaComments, FaHouseUser,FaUsers, FaServer, FaUserCog, } from 'react-icons/fa';
 import { getStats, getPosts, getMetrics, getComments } from '../../services/api';
